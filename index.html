@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://s3.amazonaws.com/iconbros/icons/icon_pngs/000/014/421/original/alarm-clock_5215440.png?1635739038">
+</head>
+<body>
+    <div id="maindiv">
+        <div class="logo">
+            <img src="clock_logo.png" alt="A logo is here">
+        </div>
+        <div class="ldv1">
+            <div class="ldv1i">
+                <img src="wake_up.png" alt="">
+                <p>Set wake up Time</p>
+                <select name="Wake" id="Up">
+                    <option value="1">7 AM - 8 AM</option>
+                    <option value="2">8 AM - 9 AM</option>
+                    <option value="3">9 AM - 10 AM</option>
+                    <option value="4">10 AM - 11 AM</option>
+                    <option value="5">11 AM - 12 PM</option>
+                </select>
+            </div>
+            <div class="line"></div>
+            <div class="ldv1i">
+                <img src="lunch_time.png" alt="">
+                <p>Set Lunch Time</p>
+                <select name="Lunch" id="Time">
+                    <option value="1">12 PM - 1 PM</option>
+                    <option value="2">1 PM - 2 PM</option>
+                    <option value="3">2 PM - 3 PM</option>
+                    <option value="4">3 PM - 4 PM</option>
+                </select>
+            </div>
+            <div class="line"></div>
+            <div class="ldv1i">
+                <img src="nap_time.png" alt="">
+                <p>Set Nap Time</p>
+                <select name="Nap" id="Time">
+                    <option value="1">4 PM - 5 PM</option>
+                    <option value="2">5 PM - 6 PM</option>
+                    <option value="3">6 PM - 7 PM</option>
+                    <option value="4">7 PM - 8 PM</option>
+                </select>
+            </div>
+            <div class="line"></div>
+            <div class="ldv1i">
+                <img src="sleeping_man.jpg" alt="">
+                <p>Set Night Time</p>
+                <select name="Night" id="Time">
+                    <option value="1">8 PM - 9 PM</option>
+                    <option value="2">9 PM - 10 PM</option>
+                    <option value="3">10 PM - 11 PM</option>
+                    <option value="4">11 PM - 12 AM</option>
+                </select>
+            </div>
+        </div>
+        <div class="ldv2">
+            <p class="p2">GOOD MORNING !! WAKE UP !!</p>
+        </div> 
+        <button id="lbt1" onmouseover="bfrHover()" onmouseout="aftHover()">Set Alarm</button>
+        <div class="ldv4">
+            <p class="p4">Wake Up Time : 7AM - 8AM</p>
+            <p class="p4">Lunch Time : 12PM - 1PM</p>
+            <p class="p4">Nap Time : 4PM - 5PM</p>
+            <p class="p4">Night Time : 8PM-9AM</p>
+        </div> 
+        <!-- ------------------------------------------------------ -->
+        <div class="rdv1"></div>
+        <div class="rdv2"></div>
+        <div class="rdv3">
+            <div class="time">TIME</div>
+            <div id="hour">00 <br> hours</div>
+            <div class="dots">:</div>
+            <div id="min">00 <br> mins</div>
+            <div class="dots">:</div>
+            <div id="sec">00 <br> secs</div>
+            <div id="apm">AM</div>
+        </div>
+        <div class="rdv4">
+            <P class="rp4">GRAB SOME HEALTHY BREAKFAST!!!</P>
+        </div>
+        <div class="rdv5">
+            <!-- <img id="imgchng" src="mrng.png" alt="An image is here"> -->
+        </div>
+    </div>
+         <!-- ------------------------------------------------------ -->
+    <script src="index.js"></script>
+</body>
+</html>
