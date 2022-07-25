@@ -35,7 +35,7 @@ function clock(){
         document.getElementsByClassName("rp4")[0].innerText = "LET'S HAVE SOME LUNCH !!!";
         document.getElementsByClassName("rdv5")[0].style.backgroundImage = "url('lunch.png')";    
     }
-    else if(hours >=17 && hours <20){
+    else if(hours >=16 && hours <20){
         document.getElementsByClassName("p2")[0].innerText = "GOOD EVENING !!";
         document.getElementsByClassName("rp4")[0].innerText = "STOP YAWNING, GET SOME TEA.. IT'S JUST EVENING !!!";
         document.getElementsByClassName("rdv5")[0].style.backgroundImage = "url('tea.png')";    
